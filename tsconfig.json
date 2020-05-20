@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "alwaysStrict": true,
+        "declaration": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "strict": true,
+        "incremental": true,
+        "lib": ["es2019"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noUnusedLocals": true,
+        "outDir": "./dist",
+        "pretty": true,
+        "removeComments": true,
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "strictFunctionTypes": true,
+        "strictBindCallApply": true,
+        "target": "es2019",
+        "types": ["node", "klasa", "discord.js"]
+    },
+    "include": ["src"]
+}

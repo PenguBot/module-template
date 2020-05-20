@@ -1,0 +1,37 @@
+{
+  "name": "boilerplate",
+  "version": "0.0.1",
+  "description": "PenguBot Modules Boilerplate",
+  "main": "dist/index",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/PenguBot/modules-boilerplate.git",
+  "author": "Aditya N. Tripathi <adityatripathidelhi@gmail.com>",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --fix --ext ts src",
+    "test": "eslint --ext ts src",
+    "compile": "tsc -p .",
+    "watch": "tsc -p . -w"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.4",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "discord.js": "github:discordjs/discord.js#fe7df708e44e0280dfaf0f8e457b154781bb5140",
+    "eslint": "^7.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "klasa": "github:dirigeants/klasa#be581f178e829b628f38f00d6397a98d27181600",
+    "typescript": "^3.9.3"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+
+  }
+}
