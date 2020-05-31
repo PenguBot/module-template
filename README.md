@@ -27,5 +27,13 @@ yarn build
 yarn lint
 ```
 
+### If you want your module to build into the build branch make sure you do this
+
+set
+```
+COMMIT_TOKEN
+```
+in github secrets
+
 ## License
 Apache 2.0
