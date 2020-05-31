@@ -1,10 +1,6 @@
 import { Client, KlasaClientOptions } from "klasa";
 import { join } from "path";
 
-import "./schemas/defaultGuildSchema";
-import "./extensions/Guild";
-import "./extensions/Message";
-
 export class BoilerplateClient extends Client {
 
     constructor(options?: KlasaClientOptions) {

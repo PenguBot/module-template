@@ -12,7 +12,8 @@
     "lint": "eslint --fix --ext ts src",
     "test": "eslint --ext ts src",
     "compile": "tsc -p .",
-    "watch": "tsc -p . -w"
+    "watch": "tsc -p . -w",
+    "clean": "rm -rf dist; yarn compile"
   },
   "devDependencies": {
     "@types/node": "^14.0.4",
