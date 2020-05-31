@@ -1,7 +1,8 @@
-import { Client as KlasaClient } from "klasa";
-import { BoilerplateClient as Client } from "./lib/Client";
+import { KlasaClient } from "klasa";
+import { BoilerplateClient } from "./lib/Client";
 
-export { Client };
+export { BoilerplateClient as Client };
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-module.exports[KlasaClient.plugin] = Client[KlasaClient.plugin];
+module.exports[KlasaClient.plugin] = BoilerplateClient[KlasaClient.plugin];
