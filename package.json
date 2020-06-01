@@ -1,0 +1,35 @@
+{
+  "name": "module-template",
+  "version": "0.0.1",
+  "description": "PenguBot module template",
+  "main": "dist/index",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/PenguBot/module-template.git",
+  "author": "Pengubot",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --fix --ext ts src",
+    "test": "eslint --ext ts src",
+    "build": "tsc -p .",
+    "watch": "tsc -p . -w",
+    "clean": "rm -rf dist; yarn build"
+  },
+  "devDependencies": {
+    "@klasa/core": "dirigeants/core#build",
+    "@types/node": "^14.0.6",
+    "@typescript-eslint/eslint-plugin": "^3.0.2",
+    "@typescript-eslint/parser": "^3.0.2",
+    "eslint": "^7.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "klasa": "github:dirigeants/klasa#build",
+    "typescript": "^3.9.3"
+  },
+  "engines": {
+    "node": ">=12.6.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
